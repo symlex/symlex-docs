@@ -1,0 +1,92 @@
+# Paths
+docs_dir: docs
+site_dir: site
+
+# Project information
+site_name: Symlex
+site_description: Framework Documentation
+site_author: Michael Mayer and contributors
+site_url: https://docs.symlex.org/en/latest
+
+# Repository
+repo_name: symlex/symlex
+repo_url: https://github.com/symlex/symlex
+edit_uri: ""
+
+# Copyright
+copyright: 'Made with ❤ in Berlin'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: blue grey
+    accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://symlex.org/
+    - type: github-alt
+      link: https://github.com/symlex
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: pymdownx.emoji.emojione
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Introduction: index.md
+  - Performance: performance.md
+  - History: history.md
+  - Tradeoffs: tradeoffs.md
+  - Setup: setup.md
+  - Configuration: configuration.md
+  - Team: team.md
+  - Contribute: contribute.md
+  - Credits: credits.md
+  - License: license.md
