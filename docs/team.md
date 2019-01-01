@@ -2,10 +2,9 @@
 
 ## Michael Mayer ##
 
-Symlex is maintained by [Michael Mayer](https://blog.liquidbytes.net/about) and
-aims to simplify agile Web development by providing a working system that promotes best practices by example.
-Michael released his [first PHP framework](http://freshmeat.sourceforge.net/projects/awf) in 2001 and 
-has previously worked with major framework vendors.
+Symlex is maintained by [Michael Mayer](https://blog.liquidbytes.net/about).
+He released his [first PHP framework](http://freshmeat.sourceforge.net/projects/awf) in 2001 and 
+has worked with various major framework vendors in the past.
 
 You can find him on [GitHub](https://github.com/lastzero), [LinkedIn](https://www.linkedin.com/in/michaelmayer11/) and [Twitter](https://twitter.com/lastzero)
 

@@ -14,7 +14,8 @@ them. The result is less bloat and simpler, more maintainable and testable code 
             
 Plain classes are used wherever possible to avoid vendor lock-in and enable framework independent code reuse.
 
-You can combine the PHP based backend with any JavaScript library or REST client. 
+You can combine the PHP based backend with any JavaScript library or REST client. The front-end boilerplate is there for 
+your convenience and puts you straight on track for building impressive single-page applications with Webpack and Vuetify. 
 A working example for command line applications is included as well.
 
 ## Key Features ##
@@ -24,10 +25,3 @@ A working example for command line applications is included as well.
 - Strict use of dependency injection for configuration and bootstrapping
 - Small code and memory footprint
 - Extremely fast compared to other PHP frameworks
-
-## User Interface ##
-
-The front-end boilerplate is there for your convenience and puts you straight on track for 
-building impressive single-page applications with [Webpack](https://webpack.js.org/), [Vue.js](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/en/). 
-
-![Screenshot](img/screenshot.jpg)

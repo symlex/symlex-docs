@@ -36,3 +36,5 @@ mode (you'll see a stack trace and other debug information on the error pages).
 
 The [mailhog](https://github.com/ian-kent/MailHog) user interface is available at http://localhost:8082/. It can be used
 to receive and view mails automatically sent by the system, e.g. when new users are created.
+
+![Screenshot](../img/screenshot.jpg)
