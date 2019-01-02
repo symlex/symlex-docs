@@ -9,6 +9,16 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="theme-color" content="#b9cfd6">
+      <meta property="og:title" content="Symlex: A lean framework stack for agile Web development based on Symfony and Vuetify">
+      <meta property="og:image" content="https://symlex.org/images/plant.jpg">
+      <meta property="og:description" content="Contains everything to create full-featured Web applications. Free and open-source.">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Symlex: A framework stack for agile Web development">
+      <meta name="twitter:description" content="Based on Symfony and Vuetify. Contains everything to create full-featured Web applications. Free and open-source.">
+      <meta name="twitter:image" content="https://symlex.org/images/plant.jpg">
+      <meta name="twitter:creator" content="@lastzero">
+
       {% if page and page.meta and page.meta.description %}
         <meta name="description" content="{{ page.meta.description }}">
       {% elif config.site_description %}
@@ -16,7 +26,8 @@
       {% endif %}
       {% if page.canonical_url %}
         <link rel="canonical" href="{{ page.canonical_url }}">
-      {% endif %}
+        <meta property="og:url" content="{{ page.canonical_url }}">
+    {% endif %}
       {% if page and page.meta and page.meta.author %}
         <meta name="author" content="{{ page.meta.author | first }}">
       {% elif config.site_author %}
