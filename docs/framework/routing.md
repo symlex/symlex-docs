@@ -4,7 +4,7 @@ Matching requests to controller actions is performed based on convention instead
 
 There are three router classes included in the core library. They configure the Symfony router component to perform the actual routing, so you can expect the same high performance.
 
-After routing a request to the appropriate controller action, the router subsequently renders the response to ease controller testing (actions never directly return JSON or HTML):
+After routing a request to the appropriate controller action, the router subsequently renders the response to ease controller testing:
 
 `Symlex\Router\Web\RestRouter` handles REST requests (JSON)
 
@@ -13,6 +13,9 @@ After routing a request to the appropriate controller action, the router subsequ
 `Symlex\Router\Web\TwigRouter` renders regular Web pages via Twig (HTML)
 
 `Symlex\Router\Web\TwigDefaultRouter` is like TwigRouter but sends all requests to a default controller action (required for client-side routing e.g. with Vue.js)
+
+Controller actions should not directly return JSON or HTML, but they can return Symfony Request objects
+e.g. to return binary data or to implement special use cases.
 
 ## Default Routes ##
 
