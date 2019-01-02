@@ -58,7 +58,7 @@ All request (except those starting with `/api/v1`) will be routed to `controller
 
 `PUT /api/v1/users/123/comments/5` will be routed to `controller.rest.v1.users` service's `putCommentsAction($id, $commendId, Request $request)`
 
-If you uncomment the `router.twig` router in exchange for `router.twig_default`, requests (except those starting with `/api/v1`) 
+If you uncomment `router.twig` in exchange for `router.twig_default`, requests (except those starting with `/api/v1`) 
 will be routed to matching web controller actions e.g.:
  
 `GET /` will be routed to `controller.web.index` service's `indexAction(Request $request)`
