@@ -1,7 +1,7 @@
 # Models and Database Abstraction
 
 Symlex isn't designed for any specific database abstraction layer or model library. 
-Our examples are based on MySQL and [Doctrine ActiveRecord](https://github.com/symlex/doctrine-active-record). 
+Our examples are based on MySQL and [Doctrine ActiveRecord](../doctrine-active-record.md). 
 
 As a lightweight alternative to Doctrine ORM, this library provides Business Model and Database Access Object (DAO) classes that encapsulate Doctrine DBAL to provide high-performance, object-oriented CRUD (create, read, update, delete) functionality for relational databases. It is a lot faster and less complex than Datamapper ORM implementations.
 
@@ -75,4 +75,4 @@ while `Doctrine\ActiveRecord\Dao\EntityDao` offers many powerful methods to easi
 
 This diagram illustrates how Controller, Model, DAO and database interact with each other:
 
-![Doctrine ActiveRecord](https://www.lucidchart.com/publicSegments/view/5461d17e-f5a8-4166-9e43-47200a00dd77/image.png)
+![Doctrine ActiveRecord](../doctrine-active-record/img/workflow.svg)

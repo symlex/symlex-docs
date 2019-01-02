@@ -112,3 +112,20 @@ nav:
     - Introduction: di-microkernel.md
     - Configuration: di-microkernel/config.md
     - Contribute: di-microkernel/contribute.md
+  - InputValidation:
+    - Introduction: input-validation.md
+    - Create Forms: input-validation/definition.md
+    - Field Properties: input-validation/properties.md
+    - REST Example: input-validation/example.md
+    - API: input-validation/api.md
+    - Tradeoffs: input-validation/tradeoffs.md
+    - Contribute: input-validation/contribute.md
+  - Doctrine ActiveRecord:
+    - Introduction: doctrine-active-record.md
+    - Examples: doctrine-active-record/examples.md
+    - Business Models: doctrine-active-record/models.md
+    - Data Access Objects: doctrine-active-record/daos.md
+    - Search Queries: doctrine-active-record/search.md
+    - Unit Tests: doctrine-active-record/tests.md
+    - Tradeoffs: doctrine-active-record/tradeoffs.md
+    - Contribute: doctrine-active-record/contribute.md

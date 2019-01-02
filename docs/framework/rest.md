@@ -46,8 +46,8 @@ Delete actions can also return *null* ("204 No Content").
 
 ## Input Validation and Database Abstraction ##
 
-The following example shows how to work with our battle-tested [InputValidation](https://github.com/symlex/input-validation)
-and [Doctrine ActiveRecord](https://github.com/symlex/doctrine-active-record)  libraries in a REST controller context. Note, how easy it is 
+The following example shows how to work with our battle-tested [InputValidation](../input-validation.md)
+and [Doctrine ActiveRecord](../doctrine-active-record.md)  libraries in a REST controller context. Note, how easy it is 
 to avoid deeply nested structures. User model and form factory are injected as dependencies.
 
 !!! example
