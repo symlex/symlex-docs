@@ -1,6 +1,6 @@
 # User Interface
 
-Our front-end boilerplate located in `frontend/` is there for your convenience and puts you straight on track for 
+Our boilerplate located in `frontend/` is there for your convenience and puts you straight on track for 
 building impressive single-page applications with [Webpack](https://webpack.js.org/), [Vue.js](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/en/). 
 
 ![Screenshot](../img/screenshot.jpg)

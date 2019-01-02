@@ -95,7 +95,7 @@ nav:
       - Bootstrapping: framework/kernel.md
       - Routing & Twig: framework/routing.md
       - Commands: framework/cli.md
-      - User Interface: framework/frontend.md
+      - Web Frontend: framework/frontend.md
       - Web Controller: framework/web.md
       - REST Controller: framework/rest.md
       - Input Validation: framework/forms.md

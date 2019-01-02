@@ -3,7 +3,7 @@
 ## Micro-Kernel ##
 
 Bootstrapping is performed using a [micro-kernel](https://github.com/symlex/di-microkernel). It's just a few lines to 
-set environment parameters, initialize the Symfony service container and run the app:
+set environment parameters, initialize the service container and run the app:
 
 ```php
 <?php

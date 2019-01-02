@@ -1,8 +1,8 @@
 # Setup 
 
-Before you start, make sure you have PHP 7, Composer and Docker installed on your system (short [howto](../osx.md) 
-for Mac OS X users). Instead of using Docker, you can also setup your own runtime environment based on the existing 
-[Docker configuration](https://github.com/symlex/symlex/tree/master/app/docker).
+Before you start, make sure you have PHP 7, Composer and Docker installed on your system. 
+Instead of using Docker, you can also setup your own runtime environment based on the existing 
+[Docker configuration](https://github.com/symlex/symlex/tree/master/app/docker) (not recommended).
 
 **Step 1:** Run [Composer](https://getcomposer.org/) to create a new Symlex project:
 
@@ -32,11 +32,17 @@ bin/phing dev
     You can also use this approach to execute other commands later (see `build.xml`). Alternatively, you can 
     install npm and Yarn locally and link "db" to 127.0.0.1 in /etc/hosts to run them directly on your host.
 
+## Web UI ##
+
 After successful installation, open the site at http://localhost:8081/ and log in as `admin@example.com` using the 
 password `passwd`. If you add `localhost-debug` to your /etc/hosts and access the site with that, it will load in debug
 mode (you'll see a stack trace and other debug information on the error pages).
 
+![Screenshot](img/login.jpg)
+
+## MailHog ##
+
 The [mailhog](https://github.com/ian-kent/MailHog) user interface is available at http://localhost:8082/. It can be used
 to receive and view mails automatically sent by the system, e.g. when new users are created.
 
-![Screenshot](../img/screenshot.jpg)
+![Screenshot](img/mailhog.jpg)
