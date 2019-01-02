@@ -4,8 +4,8 @@ site_dir: site
 
 # Project information
 site_name: Symlex
-site_description: Framework Documentation
-site_author: Michael Mayer and contributors
+site_description: A lean framework stack for agile Web development based on Symfony and Vuetify
+site_author: Symlex.org
 site_url: https://docs.symlex.org/en/latest
 
 # Repository
