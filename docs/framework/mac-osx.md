@@ -1,8 +1,9 @@
-# Installing PHP, Composer and Docker on Mac OS X
+# PHP, Composer and Docker on Mac OS X
 
-Mac OS X is shipped with outdated PHP versions. You can download the latest version from [Liip](https://php-osx.liip.ch/).
+Mac OS X is shipped with outdated PHP versions. You can install a more current version via [Homebrew](https://brew.sh/)
+or download the latest version from [Liip](https://php-osx.liip.ch/).
 
-After installing a custom PHP version, you must add its path to `~/.bash_profile`:
+After installing a custom PHP version, you should add its path to your `PATH` in `~/.bash_profile`:
 
 ```
 export PATH="/usr/local/bin:/usr/local/php5/bin:$PATH"
@@ -16,8 +17,8 @@ sudo mv composer.phar /usr/local/bin/composer
 
 Docker - a free tool that provides easy-to-use container virtualization - is available for download at https://download.docker.com/mac/stable/Docker.dmg
 
-To work with JavaScript, you should also install [NodeJS](https://nodejs.org/en/download/) (includes npm), [Bower](https://bower.io/) and other common tools like RequireJS:
+To properly work with JavaScript, you should also install [NodeJS](https://nodejs.org/en/download/) (includes npm) and [Yarn](https://yarnpkg.com/en/):
 
 ```
-sudo npm install -g bower requirejs
+sudo npm install -g yarn
 ```
