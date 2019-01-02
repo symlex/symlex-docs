@@ -5,9 +5,9 @@ Our examples are based on MySQL and [Doctrine ActiveRecord](https://github.com/s
 
 As a lightweight alternative to Doctrine ORM, this library provides Business Model and Database Access Object (DAO) classes that encapsulate Doctrine DBAL to provide high-performance, object-oriented CRUD (create, read, update, delete) functionality for relational databases. It is a lot faster and less complex than Datamapper ORM implementations.
 
-## Models
+## Business Models
 
-Business Models are logically located between Controllers - which render views and validate user input - and Data Access Objects (DAOs), that are low-level interfaces to a storage backend or Web service.
+Models are logically located between Controllers - which render views and validate user input - and Data Access Objects (DAOs), that are low-level interfaces to a storage backend or Web service.
 
 Public interfaces of models are high-level and should reflect all use cases within their domain:
  

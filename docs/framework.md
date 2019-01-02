@@ -1,4 +1,6 @@
-# Setup 
+# Getting Started
+
+## Setup ##
 
 Before you start, make sure you have PHP 7, Composer and Docker installed on your system. 
 Instead of using Docker, you can also setup your own runtime environment based on the existing 
