@@ -96,9 +96,10 @@ nav:
       - Commands: framework/cli.md
       - User Interface: framework/frontend.md
       - Web Controller: framework/web.md
-      - REST Services: framework/rest.md
-      - Models: framework/models.md
+      - REST Controller: framework/rest.md
       - Input Validation: framework/forms.md
+      - Models: framework/models.md
       - Error Handling: framework/errors.md
       - Unit Tests: framework/unit-tests.md
       - Acceptance Tests: framework/acceptance-tests.md
+      - Mac OS X: framework/mac-osx.md

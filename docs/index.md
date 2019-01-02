@@ -18,6 +18,11 @@ You can combine the PHP based backend with any JavaScript library or REST client
 your convenience and puts you straight on track for building impressive single-page applications with Webpack and Vuetify. 
 A working example for command line applications is included as well.
 
+Feel free to send an e-mail to [hello@symlex.org](mailto:hello@symlex.org) if you have any questions, 
+need [commercial support](https://blog.liquidbytes.net/contact/) or just want to say hello. 
+We welcome contributions of any kind. If you have a bug or an idea, read our 
+[guide](contribute.md) before opening an issue.
+
 ## Key Features ##
 
 - Built on top of well documented and tested standard components
@@ -25,3 +30,8 @@ A working example for command line applications is included as well.
 - Strict use of dependency injection for configuration and bootstrapping
 - Small code and memory footprint
 - Extremely fast compared to other PHP frameworks
+
+!!! quote
+    Choice is the enemy of productivity. Put another way, if your solution does everything, 
+    and has no opinions about anything, then it solves nothing. ― *Asim Aslam*
+
