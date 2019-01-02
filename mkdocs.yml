@@ -111,3 +111,4 @@ nav:
   - DIMicroKernel:
     - Introduction: di-microkernel.md
     - Configuration: di-microkernel/config.md
+    - Contribute: di-microkernel/contribute.md
