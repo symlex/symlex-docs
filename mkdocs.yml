@@ -92,7 +92,7 @@ nav:
       - Setup: framework/setup.md
       - Configuration: framework/config.md
       - Kernel: framework/kernel.md
-      - Routing: framework/routing.md
+      - Routing & Twig: framework/routing.md
       - Commands: framework/cli.md
       - User Interface: framework/frontend.md
       - Web Controller: framework/web.md
@@ -102,4 +102,6 @@ nav:
       - Error Handling: framework/errors.md
       - Unit Tests: framework/unit-tests.md
       - Acceptance Tests: framework/acceptance-tests.md
+      - Bundles: framework/bundles.md
+      - Annotations: framework/annotations.md
       - Mac OS X: framework/mac-osx.md

@@ -1,15 +1,18 @@
 # Configuration
 
 YAML files located in `app/config/` configure the entire system based on parameter and service definitions. The filename matches the application's environment name:
-- `app/config/web.yml` configures Web (HTTP) applications bootstrapped in `web/app.php`
-- `app/config/console.yml` configures command-line applications bootstrapped in `app/console`
+ 
+ - `app/config/web.yml` configures Web (HTTP) applications bootstrapped in `web/app.php`
+ - `app/config/console.yml` configures command-line applications bootstrapped in `app/console`
 
-These files are in the same format you know from Symfony. In addition to the regular services, they also contain the actual application as a service ("app"):
+These files are in the same format you know from Symfony. In addition to the regular services, they also contain the actual application as a service:
 
-    services:
-        app:
-            class: Symlex\Application\Web
-            public: true
+```yaml
+services:
+  app:
+    class: Symlex\Application\Web
+    public: true
+```
 
 This provides a uniform approach for bootstrapping Web (`Symlex\Application\Web`) and command-line (`Symfony\Component\Console\Application`) applications with the same kernel.
 
