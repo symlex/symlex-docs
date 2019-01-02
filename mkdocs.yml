@@ -84,11 +84,12 @@ nav:
   - Performance: performance.md
   - History: history.md
   - Tradeoffs: tradeoffs.md
-  - Team: team.md
   - Contribute: contribute.md
-  - Mac OS X: osx.md
+  - Team: team.md
+  - Contact: contact.md
   - Credits: credits.md
   - License: license.md
+  - Mac OS X: osx.md
   - Framework:
     - Getting Started: framework.md
     - Configuration: framework/config.md

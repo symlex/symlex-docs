@@ -2,6 +2,10 @@
 
 Give it a try if you already like Symfony and would like to work in a leaner, more agile way.
 
+!!! quote
+    Choice is the enemy of productivity. Put another way, if your solution does everything, 
+    and has no opinions about anything, then it solves nothing.<br> ― *Asim Aslam*
+
 ## Pros ##
 
 - By far the fastest PHP framework according to [phpbenchmarks.com](http://www.phpbenchmarks.com/en/)
