@@ -104,4 +104,4 @@ nav:
       - Acceptance Tests: framework/acceptance-tests.md
       - Bundles: framework/bundles.md
       - Annotations: framework/annotations.md
-      - Mac OS X: framework/mac-osx.md
+      - Mac OS X: framework/osx.md
