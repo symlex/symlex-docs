@@ -4,7 +4,6 @@
 [![License](https://poser.pugx.org/symlex/doctrine-active-record/license.svg)](https://packagist.org/packages/symlex/doctrine-active-record)
 [![Test Coverage](https://codecov.io/gh/symlex/doctrine-active-record/branch/master/graph/badge.svg)](https://codecov.io/gh/symlex/doctrine-active-record)
 [![Build Status](https://travis-ci.org/symlex/doctrine-active-record.png?branch=master)](https://travis-ci.org/symlex/doctrine-active-record)
-[![Documentation](https://readthedocs.org/projects/symlex-docs/badge/?version=latest&style=flat)](https://docs.symlex.org/en/latest/doctrine-active-record)
 
 As a lightweight alternative to Doctrine ORM, this library provides Business Model and Database Access Object (DAO) classes 
 that encapsulate **Doctrine DBAL** to provide high-performance, object-oriented CRUD (create, read, update, delete) 

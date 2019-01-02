@@ -4,7 +4,6 @@
 [![License](https://poser.pugx.org/symlex/input-validation/license.svg)](https://packagist.org/packages/symlex/input-validation)
 [![Test Coverage](https://codecov.io/gh/symlex/input-validation/branch/master/graph/badge.svg)](https://codecov.io/gh/symlex/input-validation)
 [![Build Status](https://travis-ci.org/symlex/input-validation.png?branch=master)](https://travis-ci.org/symlex/input-validation)
-[![Documentation](https://readthedocs.org/projects/symlex-docs/badge/?version=latest&style=flat)](https://docs.symlex.org/en/latest/input-validation)
 
 **This library provides whitelist validation ("accept known good") that is perfectly suited for building secure REST services.** It uses programming language independent validation rules (plain array) that can be reused for additional client-side validation (JavaScript) or passed to template rendering engines such as Twig. By design, it is compatible with any framework and input source (HTML, REST, RPC, ...).
 
