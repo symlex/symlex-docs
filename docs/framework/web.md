@@ -24,9 +24,10 @@ The routers pass on the request instance to each matched controller action as la
 
 **Web controller actions** can either return 
 
- - **null** ⇒ Matching Twig template will be rendered 
- - an **array** ⇒ Twig template can access those values as variables
- - or a **string** ⇒ User will be redirected to URL
+ - **null**: Matching Twig template will be rendered 
+ - an **array**: Twig template can access those values as variables
+ - a **string**: User will be redirected to URL
+ - or a `Symfony\Component\HttpFoundation\Response` object 
  
 Twig's template base directory can be configured in `app/config/twig.yml` (`twig.path`). The template filename is matching the request route: `[twig.path]/[controller]/[action].twig`. 
 

@@ -36,7 +36,8 @@ Symlex REST controllers use a naming scheme similar to FOSRestBundle's *implicit
     }
     ```
 
-**REST controller actions** always return arrays, which are automatically converted to valid JSON. Delete actions can return *null* ("204 No Content").
+**REST controller actions** can either return an *array*, which is automatically converted to valid JSON, or a `Symfony\Component\HttpFoundation\Response` object.
+Delete actions can also return *null* ("204 No Content").
 
 !!! Links example
      - [UsersController](https://github.com/symlex/symlex/blob/master/src/Controller/Rest/V1/UsersController.php)
