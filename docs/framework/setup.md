@@ -1,6 +1,6 @@
 # Setup 
 
-Before you start, make sure you have PHP 7, Composer and Docker installed on your system (short [howto](osx.md) 
+Before you start, make sure you have PHP 7, Composer and Docker installed on your system (short [howto](../osx.md) 
 for Mac OS X users). Instead of using Docker, you can also setup your own runtime environment based on the existing 
 [Docker configuration](https://github.com/symlex/symlex/tree/master/app/docker).
 

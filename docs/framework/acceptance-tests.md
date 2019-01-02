@@ -1,4 +1,4 @@
-# Testing the User Interface
+# Acceptance Tests
 
 A ready-to-use [Codeception](https://codeception.com/) test suite for acceptance tests is located in `app/codeception/`:
 

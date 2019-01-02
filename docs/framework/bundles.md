@@ -12,3 +12,8 @@ There is no support for Symfony Bundles in Symlex as we strive to build focused,
     I've been struggling with it for 6 hours now. Just to be able to make a custom user registration form. 
     The basic documentation is 6 pages long...<br>
     ― *Olivier Pons on [Stack Overflow](http://stackoverflow.com/questions/19064719/fosuserbundle-what-is-the-point)*
+    
+## Annotations ##
+
+Annotations are also not supported as we find them difficult to maintain and test. We prefer a tiny bit of code instead
+or use the service container to [configure](config.md) our apps.

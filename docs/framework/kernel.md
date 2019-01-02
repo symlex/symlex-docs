@@ -1,4 +1,6 @@
-# Kernel
+# Bootstrapping
+
+## Micro-Kernel ##
 
 Bootstrapping is performed using a [micro-kernel](https://github.com/symlex/di-microkernel). It's just a few lines to 
 set environment parameters, initialize the Symfony service container and run the app:
@@ -38,6 +40,8 @@ class Kernel
 }
 ```
 
+## Customization ##
+
 The kernel base class can be extended to customize it for a specific purpose (e.g. command line application):
 
 ```php
@@ -61,6 +65,8 @@ class ConsoleApp extends Kernel
     }
 }
 ```
+
+## Run an App ##
 
 Creating a kernel instance and calling `run()` is enough to start any application (see `app/console` and `web/app.php`):
 

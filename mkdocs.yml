@@ -86,22 +86,22 @@ nav:
   - Tradeoffs: tradeoffs.md
   - Team: team.md
   - Contribute: contribute.md
+  - Mac OS X: osx.md
   - Credits: credits.md
   - License: license.md
   - Framework:
       - Setup: framework/setup.md
       - Configuration: framework/config.md
-      - Kernel: framework/kernel.md
+      - Bootstrapping: framework/kernel.md
       - Routing & Twig: framework/routing.md
       - Commands: framework/cli.md
       - User Interface: framework/frontend.md
       - Web Controller: framework/web.md
       - REST Controller: framework/rest.md
       - Input Validation: framework/forms.md
-      - Models: framework/models.md
+      - Persistence Layer: framework/models.md
       - Error Handling: framework/errors.md
+      - Symfony Bundles: framework/bundles.md
       - Unit Tests: framework/unit-tests.md
       - Acceptance Tests: framework/acceptance-tests.md
-      - Bundles: framework/bundles.md
-      - Annotations: framework/annotations.md
-      - Mac OS X: framework/osx.md
+
