@@ -45,6 +45,10 @@ theme:
 # Customization
 extra:
   social:
+    - type: twitter
+      link: https://twitter.com/lastzero
+    - type: linkedin
+      link: https://www.linkedin.com/in/lastzero/
     - type: globe
       link: https://symlex.org/
     - type: github-alt
