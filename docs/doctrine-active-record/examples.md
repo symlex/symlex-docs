@@ -8,21 +8,25 @@
 use Doctrine\ActiveRecord\Dao\Factory as DaoFactory;
 use Doctrine\ActiveRecord\Model\Factory;
 
-$daoFactory = new DaoFactory($db); // $db is a Doctrine\DBAL\Connection
+$daoFactory = new DaoFactory($db); 
 
 $modelFactory = new Factory($daoFactory);
 $modelFactory->setFactoryNamespace('App\Model');
 $modelFactory->setFactoryPostfix('Model');
 
-$user = $modelFactory->create('User'); // Returns instance of App\Model\UserModel
+// Returns instance of App\Model\UserModel
+$user = $modelFactory->create('User'); 
 
-$user->find(123); // Throws exception, if not found
+// Throws exception, if not found
+$user->find(123); 
 
 if ($user->email == '') {
-    $user->update(array('email' => 'bender@ilovebender.com')); // Update email
+    // Update email
+    $user->update(array('email' => 'user@example.com')); 
 }
 
-$group = $user->createModel('Group'); // Returns instance of App\Model\GroupModel
+// Returns instance of App\Model\GroupModel
+$group = $user->createModel('Group'); 
 ```
 
 ## REST Controller Context ##
@@ -78,7 +82,9 @@ class UsersController
         $this->user->find($id);
         
         $form = $this->formFactory->create('User\Edit');
-        $form->setDefinedWritableValues($request->request->all())->validate();
+        $form
+             ->setDefinedWritableValues($request->request->all())
+             ->validate();
 
         if($form->hasErrors()) {
             throw new FormInvalidException($form->getFirstError());
@@ -92,7 +98,10 @@ class UsersController
     public function postAction(Request $request)
     {
         $form = $this->formFactory->create('User\Create');
-        $form->setDefinedWritableValues($request->request->all())->validate();
+        
+        $form
+            ->setDefinedWritableValues($request->request->all())
+            ->validate();
 
         if($form->hasErrors()) {
             throw new FormInvalidException($form->getFirstError());
