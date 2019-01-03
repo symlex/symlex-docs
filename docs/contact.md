@@ -2,7 +2,7 @@
 
 Feel free to send an e-mail to [hello@symlex.org](mailto:hello@symlex.org) if you have any questions, 
 need [commercial support](https://blog.liquidbytes.net/contact/) or just want to say hello.
-    
+      
 Responsible for editorial content according to § 5 TMG / § 55 RStV:
 
 <address>
@@ -14,7 +14,11 @@ Responsible for editorial content according to § 5 TMG / § 55 RStV:
 
 USt-ID: DE189758973
 
-## What information Read the Docs collects ##
+## Community Chat ##
+
+https://gitter.im/symlex/community    
+
+## Privacy Policy ##
 
 If you’re just browsing the website, *Read the Docs* collects the same basic information that most websites collect. 
 They use common internet technologies, such as cookies and web server logs. 
@@ -29,4 +33,4 @@ The information they collect about all visitors includes:
 
 They also collect potentially personally-identifying information like Internet Protocol (IP) addresses.
 
-See [Privacy Policy](https://docs.readthedocs.io/en/latest/privacy-policy.html) and [DMCA Takedown Policy](https://docs.readthedocs.io/en/latest/dmca/).
+See their [Privacy Policy](https://docs.readthedocs.io/en/latest/privacy-policy.html) and [DMCA Takedown Policy](https://docs.readthedocs.io/en/latest/dmca/).

@@ -2,6 +2,7 @@
 
 ## Pros ##
 
+  - Battle-tested in many large, commercial projects
   - It is perfectly suited for validating REST requests and building single-page applications
   - Form definition can easily be serialized as JSON for client-side validation and form rendering with JavaScript
   - Small code footprint and very fast

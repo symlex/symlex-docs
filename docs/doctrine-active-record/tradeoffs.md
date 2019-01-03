@@ -2,6 +2,7 @@
 
 ## Pros ##
 
+  - Battle-tested in many large, commercial projects
   - The active record pattern is perfectly suited for building REST services (create, read, update, delete)
   - It is a lot faster and less complex than Datamapper ORM implementations
   - Small code footprint

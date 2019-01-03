@@ -45,6 +45,8 @@ theme:
 # Customization
 extra:
   social:
+    - type: commenting
+      link: https://gitter.im/symlex/community
     - type: twitter
       link: https://twitter.com/lastzero
     - type: linkedin
@@ -88,9 +90,9 @@ nav:
   - Performance: performance.md
   - History: history.md
   - Tradeoffs: tradeoffs.md
-  - Contribute: contribute.md
   - Team: team.md
   - Contact: contact.md
+  - Contribute: contribute.md
   - Credits: credits.md
   - License: license.md
   - Mac OS X: osx.md

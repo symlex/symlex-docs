@@ -5,7 +5,7 @@
 [![Test Coverage](https://codecov.io/gh/symlex/doctrine-active-record/branch/master/graph/badge.svg)](https://codecov.io/gh/symlex/doctrine-active-record)
 [![Build Status](https://travis-ci.org/symlex/doctrine-active-record.png?branch=master)](https://travis-ci.org/symlex/doctrine-active-record)
 
-As a lightweight alternative to Doctrine ORM, this library provides Business Model and Database Access Object (DAO) classes 
+As a lightweight alternative to Doctrine ORM, this battle-tested library provides Business Model and Database Access Object (DAO) classes 
 that encapsulate **Doctrine DBAL** to provide high-performance, object-oriented CRUD (create, read, update, delete) 
 functionality for relational databases. It is a lot faster and less complex than Datamapper ORM implementations.
 
