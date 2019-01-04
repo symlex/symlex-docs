@@ -1,22 +1,44 @@
 # Getting Started
 
-If you want to build a more light-weight app, have a look at our other examples:
-
-## Simple REST API ##
-
-See https://github.com/symlex/rest-api
-
 ## Command-line Application ##
 
-See https://github.com/symlex/stream-sampler
+This application is compatible with PHP 7.1+ with the *curl* extension enabled.
 
-## Single-page Application ##
+Run composer to create a new project from the latest stable release and fetch external dependencies:
 
-Before you start, make sure you have PHP 7.1+, Composer and Docker installed on your system ([howto](osx.md) for Mac OS X). 
+    composer create-project symlex/stream-sampler my-stream-sampler
+
+Repository: https://github.com/symlex/stream-sampler
+
+## Web Applications ##
+
+Before you start, make sure you have PHP 7.1+, Composer and Docker installed on your system 
+([howto](https://docs.symlex.org/en/latest/osx/) for Mac OS X). 
 Instead of using Docker, you can also setup your own runtime environment based on the existing 
-[Dockerfiles](https://github.com/symlex/symlex/tree/master/app/docker) (not recommended).
+Dockerfiles (not recommended).
 
-**Step 1:** Run [Composer](https://getcomposer.org/) to create a new Symlex project:
+### Simple REST API ###
+
+**Step 1:** Run [Composer](https://getcomposer.org/) to create a new project:
+
+```
+composer create-project symlex/rest-api myapp
+```
+
+**Step 2:** Start nginx and PHP using [Docker](https://www.docker.com/):
+
+```
+cd myapp
+docker-compose up
+```
+
+**Step 3:** Open http://localhost:8088/example/123 in a browser ([source](https://github.com/symlex/rest-api/blob/master/src/Controller/ExampleController.php)).
+
+Repository: https://github.com/symlex/rest-api
+
+### Single-page Application ###
+
+**Step 1:** Run [Composer](https://getcomposer.org/) to create a new project:
 
 ```
 composer create-project symlex/symlex myapp
@@ -44,7 +66,7 @@ bin/phing dev
     You can also use this approach to execute other commands later (see `build.xml`). Alternatively, you can 
     install npm and Yarn locally and link "db" to 127.0.0.1 in /etc/hosts to run them directly on your host.
 
-### Web UI ###
+#### Web UI ####
 
 After successful installation, open the site at http://localhost:8081/ and log in as `admin@example.com` using the 
 password `passwd`. If you add `localhost-debug` to your /etc/hosts and access the site with that, it will load in debug
@@ -52,7 +74,7 @@ mode (you'll see a stack trace and other debug information on the error pages).
 
 ![Screenshot](img/login.jpg)
 
-### MailHog ###
+#### MailHog ####
 
 The [mailhog](https://github.com/ian-kent/MailHog) user interface is available at http://localhost:8082/. It can be used
 to receive and view mails automatically sent by the system, e.g. when new users are created.
