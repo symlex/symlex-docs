@@ -103,8 +103,8 @@ nav:
     - Routing & Twig: framework/routing.md
     - Commands: framework/cli.md
     - Web Frontend: framework/frontend.md
-    - Web Controller: framework/web.md
-    - REST Controller: framework/rest.md
+    - Web Controllers: framework/web.md
+    - REST Controllers: framework/rest.md
     - Input Validation: framework/forms.md
     - Persistence Layer: framework/models.md
     - Error Handling: framework/errors.md
