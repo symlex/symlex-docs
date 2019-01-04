@@ -2,7 +2,7 @@
 
 ## Command-line Application ##
 
-This application is compatible with PHP 7.1+ with the *curl* extension enabled.
+To install our example application, make sure you have PHP 7.1+ installed on your system.
 
 Run composer to create a new project from the latest stable release and fetch external dependencies:
 
