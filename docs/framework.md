@@ -2,7 +2,7 @@
 
 ## Command-line Application ##
 
-To install our example application, make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
+To install our example app, make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
 
 **Step 1:** Run `composer` to create a new project from the latest stable release and fetch external dependencies:
 
@@ -70,6 +70,8 @@ bin/phing dev
 !!! tip
     You can also use this approach to execute other commands later (see `build.xml`). Alternatively, you can 
     install npm and Yarn locally and link "db" to 127.0.0.1 in /etc/hosts to run them directly on your host.
+
+Repository: https://github.com/symlex/symlex
 
 #### Web UI ####
 
