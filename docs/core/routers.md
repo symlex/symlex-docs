@@ -1,6 +1,6 @@
 # Routers
 
-There are three router classes included in this library. They configure the [Symfony Routing](https://symfony.com/doc/current/components/routing.html) component to perform the actual routing, so you can expect the same high performance.
+There are 4 example routers included in this library. They configure the [Symfony](https://symfony.com/doc/current/components/routing.html) router to perform the actual routing, so you can expect the same high performance.
 After routing a request to the appropriate controller action, the router subsequently renders the response to ease controller testing (actions never directly return JSON or HTML):
 
 `Symlex\Router\Web\RestRouter` handles REST requests (JSON)

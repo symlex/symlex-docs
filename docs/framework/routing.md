@@ -2,7 +2,7 @@
 
 Matching requests to controller actions is performed based on convention instead of extensive configuration.
 
-There are three router classes included in the core library. They configure the Symfony router component to perform the actual routing, so you can expect the same high performance.
+There are 4 example routers included in our [core](../core/routers.md) library. They configure the [Symfony](https://symfony.com/doc/current/components/routing.html) router to perform the actual routing, so you can expect the same high performance.
 
 After routing a request to the appropriate controller action, the router subsequently renders the response to ease controller testing:
 
