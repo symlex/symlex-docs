@@ -2,9 +2,9 @@
 
 ## Command-line Application ##
 
-To install our example application, make sure you have PHP 7.1+ and Composer installed on your system.
+To install our example application, make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
 
-Run composer to create a new project from the latest stable release and fetch external dependencies:
+Run `composer` to create a new project from the latest stable release and fetch external dependencies:
 
     composer create-project symlex/stream-sampler my-stream-sampler
 
@@ -12,20 +12,20 @@ Repository: https://github.com/symlex/stream-sampler
 
 ## Web Applications ##
 
-Before you start, make sure you have PHP 7.1+, Composer and Docker installed on your system 
+Before you start, make sure you have PHP 7.1+, [Composer](https://getcomposer.org/) and [Docker](https://www.docker.com/) installed on your system 
 ([howto](https://docs.symlex.org/en/latest/osx/) for Mac OS X). 
 Instead of using Docker, you can also setup your own runtime environment based on the existing 
 Dockerfiles (not recommended).
 
 ### Simple REST API ###
 
-**Step 1:** Run [Composer](https://getcomposer.org/) to create a new project:
+**Step 1:** Run `composer` to create a new project:
 
 ```
 composer create-project symlex/rest-api myapp
 ```
 
-**Step 2:** Start nginx and PHP using [Docker](https://www.docker.com/):
+**Step 2:** Start nginx and PHP using `docker-compose`:
 
 ```
 cd myapp
@@ -38,13 +38,13 @@ Repository: https://github.com/symlex/rest-api
 
 ### Single-page Application ###
 
-**Step 1:** Run [Composer](https://getcomposer.org/) to create a new project:
+**Step 1:** Run `composer` to create a new project:
 
 ```
 composer create-project symlex/symlex myapp
 ```
 
-**Step 2:** Start nginx, PHP and MySQL using [Docker](https://www.docker.com/):
+**Step 2:** Start nginx, PHP and MySQL using `docker-compose`:
 
 ```
 cd myapp
