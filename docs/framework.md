@@ -4,9 +4,14 @@
 
 To install our example application, make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
 
-Run `composer` to create a new project from the latest stable release and fetch external dependencies:
+**Step 1:** Run `composer` to create a new project from the latest stable release and fetch external dependencies:
 
-    composer create-project symlex/stream-sampler my-stream-sampler
+    composer create-project symlex/stream-sampler myapp
+
+**Step 2:** Use `app/console` to execute commands: 
+
+    cd myapp
+    app/console sample -i internal -s 10
 
 Repository: https://github.com/symlex/stream-sampler
 
