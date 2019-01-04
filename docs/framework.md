@@ -2,9 +2,9 @@
 
 ## Command-line Application ##
 
-To install our example, make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
+Make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
 
-**Step 1:** Run `composer` to create a new project:
+**Step 1:** Run `composer` to create a new project from our example:
 
     composer create-project symlex/stream-sampler myapp
 
