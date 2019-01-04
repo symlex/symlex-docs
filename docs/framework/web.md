@@ -1,4 +1,4 @@
-# Rendering HTML Templates
+# Controllers for Web Applications
 
 Symlex controllers are plain PHP classes by default. They are configured as public services either in `app/config/web.yml` (HTML) or `app/config/rest.yml` (REST):
 
