@@ -2,7 +2,7 @@
 
 ## Command-line Application ##
 
-To install our example application, make sure you have PHP 7.1+ installed on your system.
+To install our example application, make sure you have PHP 7.1+ and Composer installed on your system.
 
 Run composer to create a new project from the latest stable release and fetch external dependencies:
 
