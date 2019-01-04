@@ -1,6 +1,16 @@
 # Getting Started
 
-## Setup ##
+If you want to build a more light-weight app, have a look at our other examples:
+
+## Simple REST API ##
+
+See https://github.com/symlex/rest-api
+
+## Command-line Application ##
+
+See https://github.com/symlex/stream-sampler
+
+## Single-page Application ##
 
 Before you start, make sure you have PHP 7.1+, Composer and Docker installed on your system ([howto](osx.md) for Mac OS X). 
 Instead of using Docker, you can also setup your own runtime environment based on the existing 
@@ -34,7 +44,7 @@ bin/phing dev
     You can also use this approach to execute other commands later (see `build.xml`). Alternatively, you can 
     install npm and Yarn locally and link "db" to 127.0.0.1 in /etc/hosts to run them directly on your host.
 
-## Web UI ##
+### Web UI ###
 
 After successful installation, open the site at http://localhost:8081/ and log in as `admin@example.com` using the 
 password `passwd`. If you add `localhost-debug` to your /etc/hosts and access the site with that, it will load in debug
@@ -42,7 +52,7 @@ mode (you'll see a stack trace and other debug information on the error pages).
 
 ![Screenshot](img/login.jpg)
 
-## MailHog ##
+### MailHog ###
 
 The [mailhog](https://github.com/ian-kent/MailHog) user interface is available at http://localhost:8082/. It can be used
 to receive and view mails automatically sent by the system, e.g. when new users are created.
