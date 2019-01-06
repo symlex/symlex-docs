@@ -1,6 +1,6 @@
 # User Interface
 
-Our boilerplate located in `frontend/` is there for your convenience and puts you straight on track for 
+Our boilerplate code located in the `frontend` directory is there for your convenience and puts you straight on track for 
 building impressive single-page applications with [Webpack](https://webpack.js.org/), [Vue.js](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/en/). 
 
 ![Screenshot](../img/screenshot.jpg)
@@ -21,4 +21,4 @@ A build can be triggered by running `npm run dev` (watches for changes and re-bu
 
 ## Dependencies ##
 
-The full list of dependencies can be found in `frontend/package.json`. You need to run `yarn install` in the **frontend directory** to install them (automatically happens during installation, see `Makefile`). Run `yarn add [package name]` to add a new package (library or framework).
+The full list of dependencies can be found in `frontend/package.json`. You need to run `yarn install` in the **frontend directory** to install them (automatically happens during installation, see `build.xml`). Run `yarn add [package name]` to add a new package (library or framework).
