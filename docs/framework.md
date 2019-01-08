@@ -48,7 +48,6 @@ docker-compose up
 ```
 
 **Step 3:** Open http://localhost:8088/example/123 in a browser ([source](https://github.com/symlex/rest-api/blob/master/src/Controller/ExampleController.php)).
-
 To open a terminal, run `docker-compose exec php sh`.
 
 !!! tip
