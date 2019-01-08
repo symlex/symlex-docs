@@ -58,4 +58,4 @@ class UserController
 }
 ```
 
-See also [Doctrine ActiveRecord - Object-oriented CRUD for Doctrine DBAL](../active-record.md)
+See also [Doctrine ActiveRecord - Object-oriented CRUD for Doctrine DBAL](../doctrine-active-record.md)
