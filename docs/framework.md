@@ -34,6 +34,8 @@ In addition, you might need a [database](https://dev.mysql.com/downloads/mysql/)
 composer create-project symlex/rest-api myapp
 ```
 
+Composer will ask for config values to generate `app/config/parameters.yml` for you.
+
 **Step 2:** Start nginx and PHP using `docker-compose`:
 
 ```
