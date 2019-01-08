@@ -8,6 +8,8 @@ Make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed o
 
     composer create-project symlex/stream-sampler myapp
 
+Composer will ask for config values to generate `app/config/parameters.yml` for you.
+
 **Step 2:** Use `app/console` to execute commands: 
 
     cd myapp
