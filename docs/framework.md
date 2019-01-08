@@ -38,6 +38,8 @@ composer create-project symlex/rest-api myapp
 
 Composer will ask for config values to generate `app/config/parameters.yml` for you.
 
+Make sure `storage/cache` is writable so that cache files can be created by the app.
+
 **Step 2:** Start nginx and PHP using `docker-compose`:
 
 ```
@@ -46,6 +48,12 @@ docker-compose up
 ```
 
 **Step 3:** Open http://localhost:8088/example/123 in a browser ([source](https://github.com/symlex/rest-api/blob/master/src/Controller/ExampleController.php)).
+
+To open a terminal, run `docker-compose exec php sh`.
+
+!!! tip
+    If you add `localhost-debug` to your `/etc/hosts` and access the site with that, it will load in debug
+    mode (you'll see a stack trace and other debug information on the error pages).
 
 Repository: https://github.com/symlex/rest-api
 
@@ -92,8 +100,11 @@ Repository: https://github.com/symlex/symlex
 #### Web UI ####
 
 After successful installation, open the site at http://localhost:8081/ and log in as `admin@example.com` using the 
-password `passwd`. If you add `localhost-debug` to your /etc/hosts and access the site with that, it will load in debug
-mode (you'll see a stack trace and other debug information on the error pages).
+password `passwd`.
+
+!!! tip
+    If you add `localhost-debug` to your `/etc/hosts` and access the site with that, it will load in debug
+    mode (you'll see a stack trace and other debug information on the error pages).
 
 ![Screenshot](img/login.jpg)
 
