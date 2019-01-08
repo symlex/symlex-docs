@@ -48,7 +48,11 @@ docker-compose up
 ```
 
 **Step 3:** Open http://localhost:8088/example/123 in a browser ([source](https://github.com/symlex/rest-api/blob/master/src/Controller/ExampleController.php)).
+
 To open a terminal, run `docker-compose exec php sh`.
+
+YAML files located in `app/config` configure the entire system based on parameter and service definitions.
+The main config file is `app/config/rest.yml`.
 
 !!! note
     If you add `localhost-debug` to your `/etc/hosts` and access the site with that, it will load in debug
