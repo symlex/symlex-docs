@@ -80,7 +80,8 @@ bin/phing dev
 
 !!! tip
     You can also use this approach to execute other commands later (see `build.xml`). Alternatively, you can 
-    install npm and Yarn locally and link "db" to 127.0.0.1 in /etc/hosts to run them directly on your host.
+    install [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/) locally and link "db" to 127.0.0.1
+    in `/etc/hosts` to run them directly on your host.
 
 Repository: https://github.com/symlex/symlex
 
