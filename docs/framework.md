@@ -22,8 +22,7 @@ Before you start, make sure you have PHP 7.1+, [Composer](https://getcomposer.or
 Instead of using Docker, you can set up your own runtime environment based on the existing 
 [Dockerfiles](https://github.com/symlex/symlex/tree/master/app/docker).
 We recommend using [Nginx](https://www.nginx.com/) with [PHP-FPM](http://php.net/manual/en/install.fpm.php)
-and URL [rewrite](https://www.nginx.com/blog/creating-nginx-rewrite-rules/) rules similar
-to [Symfony](https://symfony.com/doc/3.4/setup/web_server_configuration.html).
+and URL rewrite rules similar to [Symfony](https://symfony.com/doc/3.4/setup/web_server_configuration.html).
 In addition, you might need a [database](https://dev.mysql.com/downloads/mysql/) plus
 [nodejs](https://nodejs.org/en/), [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/) to build the frontend.
 
