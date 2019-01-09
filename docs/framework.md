@@ -15,6 +15,9 @@ Composer will ask for config values to generate `app/config/parameters.yml` for 
     cd myapp
     app/console sample -i internal -s 10
 
+YAML files located in `app/config` configure the app based on parameters and services.
+The main config file is `app/config/console.yml`.
+
 Repository: https://github.com/symlex/stream-sampler
 
 ## Web Applications ##
@@ -51,7 +54,7 @@ docker-compose up
 
 To open a terminal, run `docker-compose exec php sh`.
 
-YAML files located in `app/config` configure the entire system based on parameter and service definitions.
+YAML files located in `app/config` configure the app based on parameters and services.
 The main config file is `app/config/rest.yml`.
 
 !!! note
