@@ -1,6 +1,7 @@
 # Configuration
 
-YAML files located in `app/config/` configure the entire system based on parameter and service definitions. The filename matches the application's environment name:
+YAML files located in `app/config/` configure the entire system based on parameters and services. 
+The filename matches the application's environment name (depends on your specific kernel):
  
  - `app/config/web.yml` configures Web (HTTP) applications bootstrapped in `web/app.php`
  - `app/config/console.yml` configures command-line applications bootstrapped in `app/console`
