@@ -1,7 +1,7 @@
 # Relationship with Symfony and Silex
 
 Symlex was started in 2014 as a simple Silex boilerplate, since Silex itself doesn't come with a "Standard Edition" 
-that points you in the right direction. Using Silex instead of Symfony was recommend by SensioLabs (the creators 
+that points you in the right direction. Using Silex instead of Symfony was recommended by SensioLabs (the creators 
 of both frameworks) as a light-weight alternative to Symfony + FOSRestBundle for quickly building high-performance 
 REST services and single-page Web applications.
 
