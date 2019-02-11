@@ -8,7 +8,7 @@ While Symlex was designed to be simple and lean, a good performance is a very im
     No awkward UI. The best refactors are deletions.<br> ― *Eric Elliott*
 
 As published by [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.3/symlex-4.1.html), 
-Symlex currently adds 42% less overhead to REST requests than the next best PHP framework:
+REST requests are more than 40% faster compared to other common PHP frameworks:
 
 <img src="https://symlex.org/images/performance-large.svg" alt="Response times of popular PHP frameworks" width="100%">
 
