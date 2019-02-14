@@ -8,7 +8,7 @@ Give it a try if you already like Symfony and would like to work in a leaner, mo
 
 ## Pros ##
 
-  - By far the fastest PHP framework according to [phpbenchmarks.com](http://www.phpbenchmarks.com/en/)
+  - REST requests are more than 40% faster compared to other common PHP frameworks, see [phpbenchmarks.com](http://www.phpbenchmarks.com/en/)
   - Battle-tested in many large, commercial projects
   - Code and memory footprint is very small
   - Built on top of well documented and tested standard components
