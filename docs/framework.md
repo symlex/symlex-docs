@@ -105,8 +105,8 @@ Repository: https://github.com/symlex/symlex
 
 #### RoadRunner ####
 
-The latest release of Symlex includes [RoadRunner](https://roadrunner.dev/) - 
-a high-performance PHP application server - as an alternative to nginx:
+Symlex 4.3 includes [RoadRunner](https://roadrunner.dev/) - a high-performance PHP application server - 
+as an alternative to nginx:
 
 ```
 bin/phing roadrunner
@@ -115,9 +115,10 @@ bin/phing roadrunner
 This command will automatically download the latest `rr` binary for your operating system
 and start the server on port `8083`.
 
-Note that developing with RoadRunner might be inconvenient: It reuses PHP workers to improve performance, so you would
-have to set `maxJobs: 1` in `.rr.yml` or restart the server every time you change a PHP file. That makes it slower
-than nginx, so it's typically a good idea to keep nginx and php-fpm for development.
+!!! tip
+    Developing with RoadRunner might be inconvenient: It reuses PHP workers to improve performance, so you would
+    have to set `maxJobs: 1` in `.rr.yml` or restart the server every time you change a PHP file. That makes it slower
+    than nginx, so it's typically a good idea to keep nginx and php-fpm for development.
 
 #### Web UI ####
 
