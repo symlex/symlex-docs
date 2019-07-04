@@ -2,7 +2,7 @@
 
 ## Command-line Application ##
 
-Make sure you have PHP 7.1+ and [Composer](https://getcomposer.org/) installed on your system.
+Make sure you have PHP 7.2+ and [Composer](https://getcomposer.org/) installed on your system.
 
 **Step 1:** Run `composer` to create a new project from our example:
 
