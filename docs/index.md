@@ -6,7 +6,7 @@
   - Contains everything to create full-featured Web applications: Service container, REST routing & Twig template engine
   - Strict use of dependency injection for configuration and bootstrapping
   - Small code and memory footprint
-  - Extremely fast compared to other PHP frameworks
+  - Extremely fast compared to other PHP frameworks, especially in combination with [RoadRunner](https://roadrunner.dev/)
 
 Since its initial release in 2014, it has proven to be well suited for rapidly building microservices, 
 CLI and single-page applications. It comes complete with working examples from testing to forms and database 

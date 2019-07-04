@@ -15,7 +15,7 @@ Vuetify and VueJS are initialized in [frontend/src/app.js](https://github.com/sy
 
 ## Building ##
 
-A build can be triggered by running `npm run dev` (watches for changes and re-builds when needed) or `npm run build` (single build) in the **frontend directory**. 
+A build can be triggered by running `npm run watch` (watches for changes and re-builds when needed) or `npm run build` (single build) in the **frontend directory**. 
 
 [NPM](https://www.npmjs.com/) is the default package manager that comes with [NodeJS](https://nodejs.org/en/docs/guides/), a JavaScript run-time environment that executes JavaScript code outside of a browser. We only use it as a task runner in this project. Dependencies should be installed and updated using [Yarn](https://yarnpkg.com/en/docs/getting-started). It is compatible with NPM, but faster and better suited for front-end development.
 
