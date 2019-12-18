@@ -6,7 +6,7 @@ A ready-to-use [TestCafe](https://devexpress.github.io/testcafe/) test suite for
     Running acceptance tests in Chromium headless...
     
     > symlex-frontend@0.0.0 test-chromium /var/www/html/frontend
-    > testcafe "chromium:headless tests/acceptance --reporter spec
+    > testcafe "chromium:headless" tests/acceptance --reporter spec
     
      Running tests in:
      - HeadlessChrome 73.0.3683 / Linux 0.0.0
