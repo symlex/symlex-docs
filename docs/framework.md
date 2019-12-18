@@ -116,7 +116,7 @@ It will be automatically downloaded when you build the Docker image.
     they still use NGINX and PHP-FPM. Instead of `web` and `php`, there is now a single `app` 
     service powered by RoadRunner. If you prefer NGINX, you can use an older 
     [release](https://github.com/symlex/symlex/releases) or copy the previous config to the new release.
-    Our public demo still uses NGINX and also some examples.
+    Some of our example apps still use NGINX.
 
 #### Web UI ####
 
