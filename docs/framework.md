@@ -26,7 +26,7 @@ Before you start, make sure you have PHP 7.2+, [Composer](https://getcomposer.or
 ([howto](https://docs.symlex.org/en/latest/osx/) for Mac OS X). 
 Instead of using Docker, you can set up your own runtime environment based on the existing 
 [Dockerfile](https://github.com/symlex/symlex/tree/master/Dockerfile).
-In addition, you will need a [database](https://dev.mysql.com/downloads/mysql/) plus
+In addition, you will need a [database](https://downloads.mariadb.org/) plus
 [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) to build the frontend.
 
 ### Simple REST API ###
@@ -41,7 +41,7 @@ Composer will ask for config values to generate `app/config/parameters.yml` for 
 
 Make sure `storage/cache` is writable so that cache files can be created by the app.
 
-**Step 2:** Start nginx and PHP using `docker-compose`:
+**Step 2:** Start NGINX and PHP using `docker-compose`:
 
 ```
 cd myapp
@@ -73,7 +73,7 @@ Composer will ask for config values to generate `app/config/parameters.yml` for 
 
 Make sure `storage/cache` is writable so that cache files can be created by the app.
 
-**Step 2:** Start nginx, PHP and MySQL using `docker-compose`:
+**Step 2:** Start [RoadRunner](https://roadrunner.dev/) and [MariaDB](https://mariadb.org/) using `docker-compose`:
 
 ```
 cd myapp
@@ -81,7 +81,7 @@ docker-compose up
 ```
 
 !!! tip
-    You can also run Docker in the background with `docker-compose up -d`, but you won't 
+    `docker-compose up -d` runs Docker in the background, but you won't 
     see helpful log messages in this case.
 
 !!! info
@@ -111,7 +111,13 @@ Repository: https://github.com/symlex/symlex
 #### RoadRunner ####
 
 Symlex now includes [RoadRunner](https://roadrunner.dev/) - a high-performance PHP application server - as an 
-alternative to nginx. It will be automatically downloaded when you build the Docker image.
+alternative to NGINX. It will be automatically downloaded when you build the Docker image.
+
+!!! tip
+    The installation instructions for Symlex >= 4.4.0 won't work for previous releases as 
+    they still use NGINX and PHP-FPM. The new version has a single `app` service powered by RoadRunner. 
+    If you prefer NGINX, you'll have to use an old release or copy the old config to the new release.
+    Our public demo still uses NGINX and also some examples.    
 
 #### Web UI ####
 
