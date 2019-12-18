@@ -111,13 +111,15 @@ Repository: https://github.com/symlex/symlex
 #### RoadRunner ####
 
 Symlex now includes [RoadRunner](https://roadrunner.dev/) - a high-performance PHP application server - as an 
-alternative to NGINX. It will be automatically downloaded when you build the Docker image.
+alternative to [NGINX](https://en.wikipedia.org/wiki/Nginx). 
+It will be automatically downloaded when you build the Docker image.
 
 !!! info
-    The installation instructions for Symlex >= 4.4.0 won't work for previous releases as 
-    they still use NGINX and PHP-FPM. The new version has a single `app` service powered by RoadRunner. 
-    If you prefer NGINX, you'll have to use an old release or copy the old config to the new release.
-    Our public demo still uses NGINX and also some examples.    
+    Our installation instructions for Symlex >= 4.4.0 won't work for previous releases as 
+    they still use NGINX and PHP-FPM. Instead of `web` and `php`, there is now a single `app` 
+    service powered by RoadRunner. If you prefer NGINX, you can use an older 
+    [release](https://github.com/symlex/symlex/releases) or copy the previous config to the new release.
+    Our public demo still uses NGINX and also some examples.
 
 #### Web UI ####
 
