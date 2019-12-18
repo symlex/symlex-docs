@@ -80,6 +80,10 @@ cd myapp
 docker-compose up
 ```
 
+!!! tip
+    You can also run Docker in the background with `docker-compose up -d`, but you won't 
+    see helpful log messages in this case.
+
 !!! info
     This docker-compose configuration is for testing and development purposes only. 
     You might need to tweak it if you run Docker with a different user for security reasons.
@@ -93,6 +97,8 @@ docker-compose up
 make terminal
 make all database
 ```
+
+To verify everything is working, run `make test`.
 
 !!! tip
     You can also use this approach to execute other CLI commands later. Make should be pre-installed in 
