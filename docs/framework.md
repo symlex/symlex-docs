@@ -80,16 +80,13 @@ cd myapp
 docker-compose up
 ```
 
-!!! tip
-    `docker-compose up -d` runs Docker in the background, but you won't 
-    see helpful log messages in this case.
-
 !!! info
-    This docker-compose configuration is for testing and development purposes only. 
+    This configuration is for testing and development purposes only, see comments in
+    [docker-compose.yml](https://github.com/symlex/symlex/blob/master/docker-compose.yml) for details.
     You might need to tweak it if you run Docker with a different user for security reasons.
     On OS X, the current release of Docker is [really slow](https://twitter.com/lastzero/status/829191426391027712) 
     in executing PHP from the host's file system.
-    
+    `docker-compose up -d` runs Docker in the background, but you won't see helpful log messages in this case.
 
 **Step 3:** Let [Make](https://www.gnu.org/software/make/) initialize the database and build the front-end components for you:
 
